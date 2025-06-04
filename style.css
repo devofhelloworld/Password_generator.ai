@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    border: none;
+    border-radius: 16px;
+    box-shadow: 8px 10px 10px grey;
+    width: 40%;
+    padding: 2rem;
+    box-sizing: border-box;
+    background-color: hsl(180, 87%, 91%);
+    overflow: auto;
+    
+    }
+
+h1{
+    text-align: center;
+    text-shadow: 4px 3px 4px hsl(0, 2%, 68%);
+}
+
+button{
+    border: none;
+    border-radius: 4px;
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#length{
+    width: 50%;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 3px 4px 5px lightgrey;
+    padding: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: hsl(0, 20%, 97%);
+}
+
+    
+
+body{
+    background: url("back.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+#l1{
+    font-size: 1.1rem;
+
+}
+p{
+    font-size: 1.1rem;
+    
+}
+@media screen and (max-width: 500px) {
+    .box{
+        width: 90%;
+        box-shadow: none;
+    }
+}
